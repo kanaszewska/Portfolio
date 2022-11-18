@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+.skills {
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p.navigation {
+    text-align: center;
+    width: 9rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    border-bottom: 3px solid white;
+    font-family: 'PT Serif', serif;
+}
+
+p.description {
+    margin: 1rem 17rem;
+}
+
+.technologies {
+    width: 100%;
+    display: grid;
+    grid-column: 2;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.field {
+    padding: 1rem;
+    width: 12rem;
+    text-align: center;
+    margin: 1rem 2rem 2rem 2rem;
+    background-color: rgba(43, 40, 40, 0.5);
+    box-shadow: 2px 3px 4px 2px rgba(43, 40, 40, 0.5);
+}
+
+.field:hover {
+    scale: 115%;
+    animation-duration: 500ms;
+    box-shadow: 1px 2px 3px 1px rgba(43, 40, 40, 0.5);
+}
+
+img.icon-img {
+    height: auto;
+    width: 6rem;
+    padding: .5rem;
+    margin-left: 1.9rem;
+}
+
+p.icon-name {
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'PT Serif', serif;
+}

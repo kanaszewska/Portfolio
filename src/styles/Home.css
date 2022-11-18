@@ -1,0 +1,51 @@
+.home {
+   width: 100%;
+   padding: 2rem;
+   height: 100vh;
+   background-color: black;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+img {
+    width: auto;
+    height: 2.5rem;
+}
+
+.photo {
+    background-image: url("../assets/photo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30rem;
+    height: 20rem;
+}
+
+.home .container {
+    width: 55%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.container p {
+    color: darkcyan;
+    font-size: 1.2rem;
+}
+
+.container h1 {
+    padding: 0;
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.container h2 {
+    color: rgba(224, 255, 255, 0.61);
+    font-size: 2rem;
+    text-align: center;
+}
+

@@ -1,0 +1,131 @@
+.work {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work .container {
+    max-width: 1350px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.heading {
+    text-align: center;
+}
+
+p.navigation {
+    text-align: center;
+    width: 9rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    border-bottom: 3px solid white;
+    font-family: 'PT Serif', serif;
+}
+
+.projects {
+    display: grid;
+    grid-column: 2;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.projects #screen {
+    margin: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 320px;
+    height: 149px;
+    align-items: center;
+    text-align: center;
+}
+
+.projects #screen:hover {
+    animation-duration: 500ms;
+    box-shadow: none;
+    background-image: none;
+}
+
+.opacity {
+    opacity: 0;
+    height: 149px;
+}
+
+.opacity:hover {
+    opacity: 1;
+}
+
+h4 {
+    padding-top: 1.5rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+button.demo {
+    font-weight: bold;
+    padding: .5rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    background-color: black;
+    margin: .5rem 2rem;
+    border: 2px solid darkorchid;
+    border-radius: 4px;
+}
+button.demo:hover {
+    background-color: darkorchid;
+}
+
+button.code {
+    font-weight: bold;
+    padding: .5rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    background-color: black;
+    margin: 0.5rem 2rem;
+    border: 2px solid darkkhaki;
+    border-radius: 4px;
+}   
+
+button.code:hover {
+    background-color: darkkhaki;
+}
+
+.project1 {
+    background-image: url("../assets/project1.jpg");
+}
+
+.project2 {
+    background-image: url("../assets/project2.jpg");
+}
+
+.project3 {
+    background-image: url("../assets/project3.jpg");
+}
+
+.project4 {
+    background-image: url("../assets/project4.jpg");
+}
+
+.project5 {
+    background-image: url("../assets/project5.jpg");
+}
+
+.project6 {
+    background-image: url("../assets/project6.jpg");
+}
+
+.project7 {
+    background-image: url("../assets/project7.jpg");
+}
+
+.project8 {
+    background-image: url("../assets/project8.jpg");
+}
+

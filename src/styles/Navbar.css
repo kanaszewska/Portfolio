@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: gray;
+    font-family: 'PT Serif', serif;
+    font-size: 1.5rem;
+}
+
+.logo img {
+    height: auto;
+    width: 14rem;
+    margin-left: 10%;
+}
+
+ul.menu {
+    margin-right: 15%;
+    display: flex;
+}
+
+.menu li {
+    color: white;
+    margin: 0 3% 0 3%;
+    border-bottom: 2px solid black;
+}
+
+.menu li:hover {
+    color: lightgray;
+    border-bottom: 2px solid lightgray;
+}
+
+.social-icons {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    margin-top: 45%;
+}
+
+li.icon {
+    width: 160px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -110px;
+    background-color: darkcyan;
+    color: white;
+    transition-duration: 300ms;
+}
+
+li.icon:hover {
+    margin-left: 0;
+    transition-duration: 300ms;
+}
+
+a.font {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 1.5rem;
+}
