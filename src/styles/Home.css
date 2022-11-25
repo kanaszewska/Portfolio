@@ -1,12 +1,14 @@
 .home {
    width: 100%;
    padding: 2rem;
-   height: 100vh;
+   min-height: 100vh;
+   height: auto;
    background-color: black;
    color: white;
    display: flex;
    align-items: center;
    justify-content: space-evenly;
+   text-align: center;
 }
 
 img {
@@ -49,3 +51,13 @@ img {
     text-align: center;
 }
 
+@media only screen and (max-width: 900px) {
+    .home {
+        display: inline-block;
+    }
+
+    .home .container {
+        text-align: center;
+        width: auto;
+    }
+}

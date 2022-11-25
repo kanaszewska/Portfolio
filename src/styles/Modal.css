@@ -51,12 +51,16 @@
 
 .modal-button {
     font-weight: bold;
-    background-color: red;
+    background-color: black;
     padding: .2rem;
-    border: 2px solid red;
+    border: 2px solid black;
     border-radius: 6px;
     width: 5rem;
     height: auto;
     color: white;
     letter-spacing: 1px;
+}
+
+.modal-button:hover {
+    scale: 110%;
 }

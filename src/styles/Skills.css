@@ -4,20 +4,23 @@
     width: 100%;
     background-color: black;
     color: white;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.container {
-    max-width: 1200px;
+.skills .container {
+    max-width: 1400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: left;
 }
 
 p.navigation {
+    margin-left: 4rem;
     text-align: center;
     width: 9rem;
     color: white;
@@ -28,14 +31,14 @@ p.navigation {
 }
 
 p.description {
-    margin: 1rem 17rem;
+    text-align: center;
 }
 
 .technologies {
-    width: 100%;
     display: grid;
     grid-column: 2;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    align-self: center;
     align-items: center;
     font-size: 1.5rem;
 }
@@ -67,4 +70,21 @@ p.icon-name {
     font-size: 1.3rem;
     color: white;
     font-family: 'PT Serif', serif;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .technologies {
+        display: grid;
+        grid-column: 6;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 900px) {
+
+    .technologies {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }  
 }

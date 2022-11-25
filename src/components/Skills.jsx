@@ -10,6 +10,7 @@ import ReactRouter from '../assets/react_router.png';
 import GitHub from '../assets/github.png';
 import Axios from '../assets/axios.png';
 import TypeScript from '../assets/type_script.png';
+import WebCookies from '../assets/webcookies.png';
 
 import '../styles/Skills.css';
 
@@ -61,6 +62,10 @@ const Skills = () => {
               <div className='field'>
                   <img className='icon-img' src={Axios} alt="HTML icon" />
                   <p className='icon-name'>AXIOS</p>
+              </div>
+              <div className='field'>
+                  <img className='icon-img' src={WebCookies} alt="HTML icon" />
+                  <p className='icon-name'>WEB COOKIES</p>
               </div>
           </div>
       </div>

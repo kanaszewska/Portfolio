@@ -2,30 +2,46 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 .contact {
+    width: 100%;
     background-color: black;
     color: white;
-    width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.contact .contain {
+.contact .container {
+    max-width: 1400px;
     display: flex;
     flex-direction: column;
-    max-width: 1000px;
+    justify-content: center;
+    align-items: left;
+    min-height: 100vh;
+    height: auto;
 }
 
 form.main {
     display: flex;
     flex-direction: column;
-    width: 600px;
     font-family: 'Playfair Display', serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p.navigation {
+    text-align: center;
+    width: 9rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    border-bottom: 3px solid white;
+    font-family: 'PT Serif', serif;
 }
 
 p.description {
+    text-align: center;
     color: darkcyan;
     font-size: 1.2rem;
 }
@@ -45,15 +61,16 @@ input.reply_to {
     margin: .5rem;
     background-color: white;
     border-radius: 3px;
+    width: 600px;
 }
 
 input:-webkit-autofill,
 input:-webkit-autofill:focus  {
     -webkit-box-shadow: 0 0 0px 1000px white inset;
   }
-  
 
 textarea.message {
+    width: 600px;
     font-weight: bold;
     letter-spacing: 2px;
     font-family: 'PT Sans', sans-serif;
@@ -66,21 +83,30 @@ textarea.message {
     height: 10rem;
 }
 
-button.contact {
+.container button {
+    margin-top: 2rem;
     letter-spacing: 5px;
-    background-color: black;
-    margin: 1rem 9.8rem;
+    background-color: darkcyan;
     width: 20rem;
     height: 3rem;
-    border: 3px solid darkcyan;
+    border: none;
     border-radius: 3px;
     font-weight: bold;
-    display: flex;
-    align-items: center;
 }
     
 button.contact:hover {
-    background-color: darkcyan;
+    scale: 108%;
+    background-color: rgb(4, 140, 140);
 } 
 
 
+@media only screen and (max-width: 900px) {
+    textarea.message {
+        width: 400px;
+    }
+
+    input.from_name,
+    input.reply_to {
+        width: 400px;
+    }
+}
