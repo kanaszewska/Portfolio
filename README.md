@@ -1,3 +1,5 @@
+I created a portfolio page to show my skills and projects.
+
 # This web page is hosted here!
 https://kanaszewska.github.io/Portfolio/
 
