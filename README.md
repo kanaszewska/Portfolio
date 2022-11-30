@@ -9,12 +9,13 @@ https://kanaszewska.github.io/Portfolio/
 * JavaScript
 * React
 
-
-Preloader while the page is loading
-Responsive design
-Scroll layout after use navigation
-Animated texts and buttons
-Contact form
+# Features
+* Responsive design
+* Scroll layout after use navigation
+* Animated texts, buttons and icons
+* Validated contact form
+* Sending email by my form
+* Modal windows
 
 # Screenshots
 
