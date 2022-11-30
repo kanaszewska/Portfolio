@@ -1,4 +1,4 @@
-I created a portfolio page to show my skills and projects.
+## I created a portfolio page to show my skills and projects.
 
 # This web page is hosted here!
 https://kanaszewska.github.io/Portfolio/
@@ -16,6 +16,9 @@ https://kanaszewska.github.io/Portfolio/
 * Validated contact form
 * Sending email by my form
 * Modal windows
+* I used fonts from Google Fonts
+* I used icons from React Icons
+
 
 # Screenshots
 
