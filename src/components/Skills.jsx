@@ -28,43 +28,43 @@ const Skills = () => {
                   <p className='icon-name'>HTML</p>
               </div>
               <div className='field'>
-                  <img className='icon-img' src={CSS} alt="HTML icon" />
+                  <img className='icon-img' src={CSS} alt="CSS icon" />
                   <p className='icon-name'>CSS</p>
               </div>
               <div className='field'>
-                  <img className='icon-img' src={JavaScript} alt="HTML icon" />
+                  <img className='icon-img' src={JavaScript} alt="JavaScript icon" />
                   <p className='icon-name'>JAVASCRIPT</p>
               </div>
               <div className='field'>
-                  <img className='icon-img' src={ReactImg} alt="HTML icon" />
+                  <img className='icon-img' src={ReactImg} alt="REACT icon" />
                   <p className='icon-name'>REACT</p>
               </div>
               <div className='field'>
-                  <img className='icon-img' src={Redux} alt="HTML icon" />
+                  <img className='icon-img' src={Redux} alt="REDUX icon" />
                   <p className='icon-name'>REDUX</p>
               </div>
               <div className='field'>
-                  <img className='icon-img' src={ReactRouter} alt="HTML icon" />
+                  <img className='icon-img' src={ReactRouter} alt="ReactRouter icon" />
                   <p className='icon-name'>REACT ROUTER</p>
               </div>
               <div className='field'>
-                  <img className='icon-img' src={TypeScript} alt="HTML icon" />
+                  <img className='icon-img' src={TypeScript} alt="TypeScript icon" />
                   <p className='icon-name'>TYPESCRIPT</p>
               </div>
               <div className='field'>
-                  <img className='icon-img' src={Git} alt="HTML icon" />
+                  <img className='icon-img' src={Git} alt="GIT icon" />
                   <p className='icon-name'>GIT</p>
               </div>
               <div className='field'>
-                  <img className='icon-img' src={GitHub} alt="HTML icon" />
+                  <img className='icon-img' src={GitHub} alt="GitHub icon" />
                   <p className='icon-name'>GITHUB</p>
               </div>
               <div className='field'>
-                  <img className='icon-img' src={Axios} alt="HTML icon" />
+                  <img className='icon-img' src={Axios} alt="AXIOS icon" />
                   <p className='icon-name'>AXIOS</p>
               </div>
               <div className='field'>
-                  <img className='icon-img' src={WebCookies} alt="HTML icon" />
+                  <img className='icon-img' src={WebCookies} alt="WebCookies icon" />
                   <p className='icon-name'>WEB COOKIES</p>
               </div>
           </div>

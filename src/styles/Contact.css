@@ -46,8 +46,9 @@ p.description {
     font-size: 1.2rem;
 }
 
-p.error {
+form p.error {
     color: red;
+    font-size: .7rem;
 }
 
 input.from_name,
