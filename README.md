@@ -27,3 +27,17 @@ https://kanaszewska.github.io/Portfolio/
 # Screenshots
 
 ![po](https://user-images.githubusercontent.com/106904594/202896968-a88556e0-6d2e-4e42-afe7-e5a40a075bd7.png)
+
+
+![Bez tytułu](https://github.com/kanaszewska/Portfolio/assets/106904594/ae718388-0c59-4a22-a589-aaab71c2e031)
+
+
+![Bez tytułua](https://github.com/kanaszewska/Portfolio/assets/106904594/40045b51-c7d6-4b9f-8ebc-9b092b8e8bef)
+
+
+![Bez tytułusa](https://github.com/kanaszewska/Portfolio/assets/106904594/4e9ad223-e56b-49d9-8dda-f99f83b99a9b)
+
+
+![Bez tytułuzsa](https://github.com/kanaszewska/Portfolio/assets/106904594/04e79210-1e37-4c41-8318-a5f1e1964ec1)
+
+
