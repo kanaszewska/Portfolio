@@ -20,7 +20,7 @@ https://kanaszewska.github.io/Portfolio/
 * Modal windows
 * I used fonts from Google Fonts
 * I used icons from React Icons
-* I created a hamburger menu at a screen width of 1300px
+* I created a hamburger menu at a screen width less than 1300px
 * This is a completely responsive website
 
 
