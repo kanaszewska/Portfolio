@@ -12,7 +12,7 @@ const Home = () => {
           Dominika Dębska
         </h1>
         <h2>
-        I’m a junior front-end developer specializing in building responsive web applications.
+        I am a full-stack developer specializing in building both the frontend and backend components of web applications.
         </h2>
         <h3>
          Please take a look around.
