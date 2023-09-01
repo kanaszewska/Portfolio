@@ -30,20 +30,25 @@ form.main {
     text-align: center;
 }
 
-p.navigation {
+.contact .container p.navigation {
+    margin-left: 4rem;
     text-align: center;
     width: 9rem;
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     border-bottom: 3px solid white;
     font-family: 'PT Serif', serif;
 }
 
-p.description {
+.contact .container p.description {
+    margin: 1rem;
+    color: rgb(17, 188, 188);
+    font-size: 1.4rem;
+    font-family: 'Corben', cursive;
+    letter-spacing: .3rem;
+    font-weight:900;
     text-align: center;
-    color: darkcyan;
-    font-size: 1.2rem;
 }
 
 form p.error {
@@ -85,7 +90,8 @@ textarea.message {
 }
 
 .container button {
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     letter-spacing: 5px;
     background-color: darkcyan;
     width: 20rem;
@@ -93,6 +99,7 @@ textarea.message {
     border: none;
     border-radius: 3px;
     font-weight: bold;
+    cursor: pointer;
 }
     
 button.contact:hover {

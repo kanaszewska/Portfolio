@@ -7,10 +7,24 @@ const Work = () => {
     <div className="work">
       <div className="container">
         <div>
-          <p className="navigation">Work</p>
           <p className="description"> Check out some of my recent work</p>
         </div>
-        <div className="projects">
+        <div className="projects-backend">
+        <div className="project-java1" id="screen">
+            <div className="opacity">
+              <h4>Pharmacy</h4>
+              <div className="link">
+                <a href="https://github.com/kanaszewska/pharmacy/tree/master/src/main">
+                  <button className="code">Code</button>
+                </a>
+                <a href="https://github.com/kanaszewska/pharmacy/tree/master/src/test/java/com/debska/pharmacy">
+                  <button className="test">Test</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="projects-frontend">
           <div className="project1" id="screen">
             <div className="opacity">
               <h4>Shop Aplication</h4>

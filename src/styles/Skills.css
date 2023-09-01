@@ -1,58 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corben&display=swap');
 
 .skills {
     width: 100%;
-    background-color: black;
-    color: white;
-    min-height: 100vh;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .skills .container {
-    max-width: 1400px;
-    display: flex;
+    width: 100wv;
+    height: auto;
+    margin: 0;
+    padding: 90px 2rem 2rem 2rem;
+    display: block;
     flex-direction: column;
-    justify-content: center;
-    align-items: left;
+    background-color: black;
 }
 
-p.navigation {
-    margin-left: 4rem;
-    text-align: center;
-    width: 9rem;
-    color: white;
-    font-size: 3rem;
-    font-weight: bold;
-    border-bottom: 3px solid white;
-    font-family: 'PT Serif', serif;
-}
-
-p.description {
+.skills .container p.description {
+    margin: 0;
+    padding: 0.2rem;
+    color: rgb(17, 188, 188);
+    font-size: 1.6rem;
+    font-family: 'Corben', cursive;
+    letter-spacing: .3rem;
+    font-weight:900;
     text-align: center;
 }
 
 .technologies {
-    display: grid;
-    grid-column: 2;
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-    align-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+}
+
+.technologies-important{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.field-important{
+    width: 22rem;
+    height: 7rem;
+    padding: .5rem;
+    text-align: center;
+    margin: .5rem 1rem 1rem 1rem;
+    background-color: rgba(61, 57, 57, 0.5);
+    box-shadow: 2px 3px 4px 2px rgba(59, 55, 55, 0.5);
+    cursor: pointer;
+}
+
+.field-important img.icon-img {
+    height: auto;
+    width: 3.5rem;
+    height: 3.5em;
+    padding: .2rem;
+    display: inline;
+}
+
+.field-important p.icon-name {
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'PT Serif', serif;
 }
 
 .field {
-    padding: 1rem;
-    width: 12rem;
+    padding: .2rem;
+    border-radius: 45%;
+    width: 4.6rem;
+    height: 4.6rem;
     text-align: center;
-    margin: 1rem 2rem 2rem 2rem;
-    background-color: rgba(43, 40, 40, 0.5);
-    box-shadow: 2px 3px 4px 2px rgba(43, 40, 40, 0.5);
+    margin: .5rem 1rem 3rem 1rem;
+    background-color: rgba(30, 28, 28, 0.5);
+    box-shadow: 2px 3px 4px 2px rgba(30, 28, 28, 0.5);
+    cursor: pointer;
 }
 
-.field:hover {
+.field:hover,
+.field-important:hover {
     scale: 115%;
     animation-duration: 500ms;
     box-shadow: 1px 2px 3px 1px rgba(43, 40, 40, 0.5);
@@ -60,31 +89,15 @@ p.description {
 
 img.icon-img {
     height: auto;
-    width: 6rem;
-    padding: .5rem;
-    margin-left: 1.9rem;
+    width: 2rem;
+    height: 2rem;
+    padding-top: .3rem;
+    display: inline;
 }
 
 p.icon-name {
     letter-spacing: 2px;
-    font-size: 1.3rem;
+    font-size: .55rem;
     color: white;
     font-family: 'PT Serif', serif;
-}
-
-@media only screen and (max-width: 900px) {
-
-    .technologies {
-        display: grid;
-        grid-column: 6;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
-
-@media screen and (max-width: 1200px) and (min-width: 900px) {
-
-    .technologies {
-        display: grid;
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-    }  
 }

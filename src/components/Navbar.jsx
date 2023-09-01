@@ -6,38 +6,51 @@ import {
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
+import { useState } from 'react';
 
 import '../styles/Navbar.css';
 
 const Navbar = () => {
+  // const [menuActive, setMenuActive] = useState(false);
 
+  // const toggleMenu = () => {
+  //   setMenuActive(!menuActive);
+  // };
+
+  const [menuActive, setMenuActive] = useState(false);
+
+  const handleMouseEnter = () => {
+    setMenuActive(true);
+  };
+
+  const handleMouseLeave = () => {
+    setMenuActive(false);
+  };
 
   return (
     <div className='navbar'>
       <div className='logo'>
         <img src={Logo} alt='LogoImage'/>
       </div>
-
-      <ul className='menu'>
+        <div className="menu-toggle" id="mobile-menu" 
+        onMouseEnter={handleMouseEnter}
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      <ul className={`menu ${menuActive ? 'active' : 'not-active'}`} id="menu" onMouseLeave={handleMouseLeave}>
         <li>
-          <Link to='home' smooth={true} duration={500}>
-            Home
-          </Link>
+          <Link to='home'>Home</Link>
         </li>
         <li>
-          <Link to='skills' smooth={true} duration={500}>
-            Skills
-          </Link>
+          <Link to='skills'>Skills</Link>
         </li>
         <li>
-          <Link to='work' smooth={true} duration={500}>
-            Work
-          </Link>
+          <Link to='work'>Work</Link>
         </li>
         <li>
-          <Link to='contact' smooth={true} duration={500}>
-            Contact
-          </Link>
+          <Link to='contact'>Contact</Link>
         </li>
       </ul>
       <div className='social-icons'>

@@ -1,5 +1,4 @@
 .home {
-   width: 100%;
    padding: 2rem;
    min-height: 100vh;
    height: auto;
@@ -34,7 +33,7 @@ img {
     text-align: left;
 }
 
-.container p {
+.home .container p {
     color: darkcyan;
     font-size: 1.2rem;
 }

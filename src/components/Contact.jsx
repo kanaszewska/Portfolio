@@ -67,7 +67,7 @@ const Contact = () => {
         <div>
           <p className="navigation">Contact</p>
           <p className="description">
-            Submit the form below or shoot me an email -
+            Submit the form below or send me an email -
             kanaszewskadominika@gmail.com
           </p>
         </div>

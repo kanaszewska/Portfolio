@@ -10,6 +10,7 @@
 }
 
 .work .container {
+    padding-top: 4rem;
     max-width: 1400px;
     display: flex;
     flex-direction: column;
@@ -17,18 +18,61 @@
     align-items: left;
 }
 
-p.navigation {
-    margin-left: 4rem;
-    text-align: left;
-    width: 9rem;
-    color: white;
-    font-size: 3rem;
-    font-weight: bold;
-    border-bottom: 3px solid white;
-    font-family: 'PT Serif', serif;
+.work .container p.description {
+    margin-top: -2.5rem;
+    padding: 0;
+    margin-bottom: .5rem;
+    color: rgb(17, 188, 188);
+    font-size: 1.6rem;
+    font-family: 'Corben', cursive;
+    letter-spacing: .3rem;
+    font-weight:900;
+    text-align: center;
 }
 
-.projects {
+.projects-backend {
+    display: flex;
+    justify-content: center;
+}
+
+.projects-backend #screen {
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+    width: 20rem;
+    height: 10rem;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+}
+
+.projects-backend h4 {
+    font-size: 2rem;
+    margin: 0;
+    padding-top: 0.2rem;
+}
+
+button.test {
+    font-weight: bold;
+    padding: .5rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    background-color: black;
+    margin: .5rem 1rem;
+    color: rgb(129, 43, 43);
+    border: 2px solid rgb(129, 43, 43);
+    border-radius: 4px;
+    width: 6rem;
+    cursor: pointer;
+}
+
+button.test:hover {
+    color: black;
+    background-color: rgb(129, 43, 43);
+}
+
+.projects-frontend {
     align-self: center;
     align-items: center;
     display: grid;
@@ -36,17 +80,18 @@ p.navigation {
     grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-.projects #screen {
-    margin: 1rem;
+.projects-frontend #screen {
+    margin: .5rem;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 320px;
-    height: 149px;
+    width: 270px;
+    /* height: 139px; */
     align-items: center;
     text-align: center;
 }
 
-.projects #screen:hover {
+.projects-frontend #screen:hover,
+.projects-backend #screen:hover  {
     animation-duration: 500ms;
     box-shadow: none;
     background-image: none;
@@ -62,7 +107,8 @@ p.navigation {
 }
 
 h4 {
-    padding-top: 1.5rem;
+    padding-top: 0.5rem;
+    margin: 0;
     color: white;
     font-size: 1.2rem;
     font-weight: bold;
@@ -72,21 +118,26 @@ h4 {
 .opacity .link {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 button.demo {
+    color: darkorchid;
     font-weight: bold;
     padding: .5rem;
     text-transform: uppercase;
     font-size: 1rem;
     background-color: black;
-    margin: .5rem 2rem;
+    margin: .5rem 1rem;
     border: 2px solid darkorchid;
     border-radius: 4px;
     width: 6rem;
+    cursor: pointer;
 }
+
 button.demo:hover {
     background-color: darkorchid;
+    color: black;
 }
 
 button.code {
@@ -97,12 +148,19 @@ button.code {
     font-size: 1rem;
     background-color: black;
     margin: 0.5rem 2rem;
+    color: darkkhaki;
     border: 2px solid darkkhaki;
     border-radius: 4px;
+    cursor: pointer;
 }   
 
 button.code:hover {
     background-color: darkkhaki;
+    color: black;
+}
+
+.project-java1 {
+    background-image: url("../assets/java.jpg");
 }
 
 .project1 {
@@ -139,7 +197,7 @@ button.code:hover {
 
 @media only screen and (max-width: 900px) {
 
-    .projects {
+    .projects-frontend {
         display: grid;
         grid-column: 6;
         grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -148,14 +206,10 @@ button.code:hover {
 
 @media screen and (max-width: 1300px) and (min-width: 900px) {
 
-    .projects {
+    .projects-frontend {
         display: grid;
         grid-column: 6;
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    button.demo {
-        padding: 0rem;
-        margin: 0rem 0rem;
-    }
 }
