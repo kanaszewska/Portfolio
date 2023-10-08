@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.7c82d87d.css",
-    "main.js": "/Portfolio/static/js/main.ea19bc23.js",
+    "main.css": "/Portfolio/static/css/main.d6f4c1ef.css",
+    "main.js": "/Portfolio/static/js/main.22dd29a8.js",
     "static/media/photo.jpg": "/Portfolio/static/media/photo.be00e378ed247b8cd938.jpg",
     "static/media/project5.jpg": "/Portfolio/static/media/project5.8e7589124559eee89b4e.jpg",
     "static/media/project3.jpg": "/Portfolio/static/media/project3.884054b806ff60d2b4b2.jpg",
     "static/media/project8.jpg": "/Portfolio/static/media/project8.fbfdf0db864a391d1ac2.jpg",
     "static/media/project6.jpg": "/Portfolio/static/media/project6.20fe8a423a677af50e6e.jpg",
+    "static/media/resume.pdf": "/Portfolio/static/media/resume.292e66154f76d7cd3df5.pdf",
+    "static/media/java.jpg": "/Portfolio/static/media/java.d63ccd026f1dcbd98abc.jpg",
     "static/media/project2.jpg": "/Portfolio/static/media/project2.cae753b2f99a712f7a8c.jpg",
     "static/media/project4.jpg": "/Portfolio/static/media/project4.60ddaff430a5d2d4af6e.jpg",
     "static/media/project1.jpg": "/Portfolio/static/media/project1.d4319ae1fba990805354.jpg",
@@ -15,18 +17,23 @@
     "static/media/webcookies.png": "/Portfolio/static/media/webcookies.e38fb1bd0ae63ae0afab.png",
     "static/media/react.png": "/Portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/redux.png": "/Portfolio/static/media/redux.c9be37e0fece29c624b0.png",
+    "static/media/springboot.png": "/Portfolio/static/media/springboot.115f587b5512027955fc.png",
     "static/media/github.png": "/Portfolio/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/sql.jpg": "/Portfolio/static/media/sql.8f5214ebc8ba1bd79d1e.jpg",
+    "static/media/mysql.png": "/Portfolio/static/media/mysql.4998420b1e0239710ec0.png",
     "static/media/html.png": "/Portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/css.png": "/Portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
-    "static/media/logo.png": "/Portfolio/static/media/logo.4ecdfc6ecd693a9c8b6d.png",
+    "static/media/logo.png": "/Portfolio/static/media/logo.bee8f9168414515dc4e8.png",
     "static/media/react_router.png": "/Portfolio/static/media/react_router.ba1f541ea388d788c7a8.png",
     "static/media/javascript.png": "/Portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "static/media/rest_api.png": "/Portfolio/static/media/rest_api.eca51101cff1032ab97d.png",
+    "static/media/java.png": "/Portfolio/static/media/java.6c64373d3b7415758078.png",
     "index.html": "/Portfolio/index.html",
-    "main.7c82d87d.css.map": "/Portfolio/static/css/main.7c82d87d.css.map",
-    "main.ea19bc23.js.map": "/Portfolio/static/js/main.ea19bc23.js.map"
+    "main.d6f4c1ef.css.map": "/Portfolio/static/css/main.d6f4c1ef.css.map",
+    "main.22dd29a8.js.map": "/Portfolio/static/js/main.22dd29a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c82d87d.css",
-    "static/js/main.ea19bc23.js"
+    "static/css/main.d6f4c1ef.css",
+    "static/js/main.22dd29a8.js"
   ]
 }
