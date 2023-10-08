@@ -31,7 +31,8 @@ https://kanaszewska.github.io/Portfolio/
 
 
 
-![portfolio2](https://github.com/kanaszewska/Portfolio/assets/106904594/dea27e2f-e63d-482d-a857-8152c0513b47)
+![portfolio2](https://github.com/kanaszewska/Portfolio/assets/106904594/5821d9d9-3796-410a-8b48-0bb8b19e4f4f)
+
 
 
 
