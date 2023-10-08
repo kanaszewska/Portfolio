@@ -26,11 +26,13 @@ https://kanaszewska.github.io/Portfolio/
 
 # Screenshots
 
-![11Bez tytułu](https://github.com/kanaszewska/Portfolio/assets/106904594/10bda59f-2aff-4622-9819-df77c355a1b1)
+![portfolio1](https://github.com/kanaszewska/Portfolio/assets/106904594/5da2df5b-7d4c-4772-b3ee-f24b13626494)
 
 
 
-![Bez tytułu](https://github.com/kanaszewska/Portfolio/assets/106904594/ae718388-0c59-4a22-a589-aaab71c2e031)
+
+![portfolio2](https://github.com/kanaszewska/Portfolio/assets/106904594/dea27e2f-e63d-482d-a857-8152c0513b47)
+
 
 
 ![Bez tytułua](https://github.com/kanaszewska/Portfolio/assets/106904594/40045b51-c7d6-4b9f-8ebc-9b092b8e8bef)
