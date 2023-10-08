@@ -18,7 +18,8 @@ import Postman from '../assets/postman.png';
 import SQL from '../assets/sql.jpg';
 import MySQL from '../assets/mysql.png';
 import Docker from '../assets/docker.png';
-
+import Maven from '../assets/maven.png';
+import RestAPI from '../assets/rest_api.png';
 
 
 import '../styles/Skills.css';
@@ -56,6 +57,14 @@ const Skills = () => {
                 <div className='field'>
                     <img className='icon-img' src={MySQL} alt="MySQL icon" />
                     <p className='icon-name'>MYSQL</p>
+                </div>
+                <div className='field'>
+                    <img className='icon-img' src={Maven} alt="Maven icon" />
+                    <p className='icon-name'>MAVEN</p>
+                </div>
+                <div className='field'>
+                    <img className='icon-img' src={RestAPI} alt="RestAPI icon" />
+                    <p className='icon-name'>REST API</p>
                 </div>
                 <div className='field'>
                     <img className='icon-img' src={Git} alt="GIT icon" />
@@ -108,7 +117,6 @@ const Skills = () => {
                     <img className='icon-img' src={WebCookies} alt="WebCookies icon" />
                     <p className='icon-name'>WEB COOKIES</p>
                 </div>
-              {/* </div> */}
           </div>
       </div>
     </div>

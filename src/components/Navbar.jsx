@@ -9,13 +9,9 @@ import { Link } from 'react-scroll';
 import { useState } from 'react';
 
 import '../styles/Navbar.css';
+import Resume from '../assets/resume.pdf';
 
 const Navbar = () => {
-  // const [menuActive, setMenuActive] = useState(false);
-
-  // const toggleMenu = () => {
-  //   setMenuActive(!menuActive);
-  // };
 
   const [menuActive, setMenuActive] = useState(false);
 
@@ -59,6 +55,8 @@ const Navbar = () => {
             <a
               className='font'
               href="https://www.linkedin.com/in/dominika-d%C4%99bska-kanaszewska-660095154/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Linkedin <FaLinkedin/>
             </a>
@@ -67,6 +65,8 @@ const Navbar = () => {
             <a
               className='font'
               href="https://github.com/kanaszewska?tab=repositories"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Github <FaGithub/>
             </a>
@@ -74,7 +74,9 @@ const Navbar = () => {
           <li className='icon'>
             <a
               className='font'
-              href='/'
+              href={Resume}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Resume <BsFillPersonLinesFill/>
             </a>
