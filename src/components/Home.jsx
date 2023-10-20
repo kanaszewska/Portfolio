@@ -12,7 +12,7 @@ const Home = () => {
         </h1>
         <p>Junior Java Developer</p>
         <h2>
-        I am a highly motivated Java programmer who works with Spring Boot and Hibernate technologies.
+        I am a highly motivated Java programmer who works with Spring Boot and Hibernate technologies
         Additionally, I am specializing in building both the frontend and backend components of web applications.
         </h2>
         <h3>

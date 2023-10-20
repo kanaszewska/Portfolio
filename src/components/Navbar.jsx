@@ -9,7 +9,7 @@ import { Link } from 'react-scroll';
 import { useState } from 'react';
 
 import '../styles/Navbar.css';
-import Resume from '../assets/resume.pdf';
+import Resume from '../assets/resume(2).pdf';
 
 const Navbar = () => {
 
