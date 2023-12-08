@@ -3,13 +3,13 @@ import {
   FaGithub,
   FaLinkedin
 } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+// import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
 import { useState } from 'react';
 
 import '../styles/Navbar.css';
-import Resume from '../assets/resume.pdf';
+// import Resume from '../assets/resume.pdf';
 
 const Navbar = () => {
 
@@ -71,7 +71,7 @@ const Navbar = () => {
               Github <FaGithub/>
             </a>
           </li>
-          <li className='icon'>
+          {/* <li className='icon'>
             <a
               className='font'
               href={Resume}
@@ -80,7 +80,7 @@ const Navbar = () => {
             >
               Resume <BsFillPersonLinesFill/>
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
