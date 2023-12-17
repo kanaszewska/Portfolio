@@ -1,8 +1,8 @@
 import React from 'react';
-import {
-  FaGithub,
-  FaLinkedin
-} from 'react-icons/fa';
+// import {
+//   FaGithub,
+//   FaLinkedin
+// } from 'react-icons/fa';
 // import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
@@ -49,7 +49,7 @@ const Navbar = () => {
           <Link to='contact'>Contact</Link>
         </li>
       </ul>
-      <div className='social-icons'>
+      {/* <div className='social-icons'>
         <ul>
           <li className='icon'>
             <a
@@ -71,7 +71,7 @@ const Navbar = () => {
               Github <FaGithub/>
             </a>
           </li>
-          {/* <li className='icon'>
+          <li className='icon'>
             <a
               className='font'
               href={Resume}
@@ -80,9 +80,9 @@ const Navbar = () => {
             >
               Resume <BsFillPersonLinesFill/>
             </a>
-          </li> */}
+          </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };
