@@ -26,22 +26,33 @@ https://kanaszewska.github.io/Portfolio/
 
 # Screenshots
 
-![portfolio1](https://github.com/kanaszewska/Portfolio/assets/106904594/5da2df5b-7d4c-4772-b3ee-f24b13626494)
+1. ![1](https://github.com/kanaszewska/Portfolio/assets/106904594/8a41d6a6-bf3c-4d52-a12a-90b512ec9b52)
 
 
 
-
-![portfolio2](https://github.com/kanaszewska/Portfolio/assets/106904594/5821d9d9-3796-410a-8b48-0bb8b19e4f4f)
-
+2. ![2](https://github.com/kanaszewska/Portfolio/assets/106904594/6cf05b10-a4fb-4115-bbd4-1ad3055a1929)
 
 
 
-![Bez tytułua](https://github.com/kanaszewska/Portfolio/assets/106904594/40045b51-c7d6-4b9f-8ebc-9b092b8e8bef)
+3. ![3](https://github.com/kanaszewska/Portfolio/assets/106904594/7c879371-d095-4c2b-a8fa-c1a04216a055)
 
 
-![Bez tytułusa](https://github.com/kanaszewska/Portfolio/assets/106904594/4e9ad223-e56b-49d9-8dda-f99f83b99a9b)
+
+4. ![4](https://github.com/kanaszewska/Portfolio/assets/106904594/5150930f-4294-4396-a46f-c93d145bde23)
 
 
-![Bez tytułuzsa](https://github.com/kanaszewska/Portfolio/assets/106904594/04e79210-1e37-4c41-8318-a5f1e1964ec1)
 
+5. ![5](https://github.com/kanaszewska/Portfolio/assets/106904594/c157fe24-7f4f-4937-b646-4976b984fecf)
+
+
+
+![6](https://github.com/kanaszewska/Portfolio/assets/106904594/e04061eb-4ae3-4f25-a2ba-50b6da57b363)
+
+
+
+![7](https://github.com/kanaszewska/Portfolio/assets/106904594/79c413df-a083-4f7f-8730-aacc6a517406)
+
+
+
+![8](https://github.com/kanaszewska/Portfolio/assets/106904594/1f211054-655c-4bd4-8489-ddbe7c2d8854)
 
